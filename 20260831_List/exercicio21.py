@@ -57,3 +57,16 @@ else:
 
 print(f"A quantidade mínima de moedas para M${value:.2f} é:")
 print(f"{coin100:g} moeda de 100, {coin50:g} moeda de 50, {coin10:g} moeda de 10, {coin05:g} moeda de 5 e {coin01:g} moeda de 1")
+
+#---
+coins = [100, 50, 10, 5 ,1]
+count = {}
+
+charge=value
+
+for i in coins:
+    count[i] = charge//i
+    charge=value%i
+
+for i in coins:
+    print(f"{count[i]} moeda(as) de {i}")
