@@ -1,0 +1,1 @@
+#Escreva um programa que lê um inteiro N e imprime a soma dos N primeiros números inteiros.
