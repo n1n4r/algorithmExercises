@@ -1,0 +1,1 @@
+#Escreva  um  programa  que  lê  um  número  não  determinados  de  valores  n,  todos  inteiros  e positivos,  um  de  cada  vez,  e  calcule  e  escreva  a  média  aritmética  dos  valores  lidos,  a quantidade  de  valores  pares,  a  quantidade  de  valores  ímpares,  a  percentagem  de  valores pares e a percentagem de valores ímpares.
