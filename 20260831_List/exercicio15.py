@@ -1,9 +1,9 @@
-"""Escrever um programa que leia três valores reais A, B e C e calcule: 
-a) a área do triângulo que tem A por base e B por altura. 
-b) a área do círculo de raio C. 
-c)  a área do trapézio que tem A e B por bases e C por altura. 
-d) a área do quadrado de lado B. 
-e) a área do retângulo de lados A e B."""
+#Escrever um programa que leia três valores reais A, B e C e calcule: 
+# a) a área do triângulo que tem A por base e B por altura. 
+# b) a área do círculo de raio C. 
+# c)  a área do trapézio que tem A e B por bases e C por altura. 
+# d) a área do quadrado de lado B. 
+# e) a área do retângulo de lados A e B.
 
 from math import pi
 a = float(input("Informe o valor de A: "))
