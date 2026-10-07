@@ -17,7 +17,7 @@ while i >= 0:
 #        j=j+1
 #        i=i-1
     string_s = string_int[i] + string_s
-    if j%3==0:
+    if i!=0 and j%3==0:
         string_s = "." + string_s
     j=j+1
     i=i-1
