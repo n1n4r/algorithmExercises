@@ -12,6 +12,10 @@ while True:
         print(f"{m} possui {count} divisores")
     elif m%2!=0 and m>12:
         #fatorial de m
+        fat=1
+        for i in range(1,m+1):
+            fat = fat*i
+        print(f"")
         pass
     else:
         #soma dos inteiros ate m
