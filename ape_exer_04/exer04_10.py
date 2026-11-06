@@ -3,7 +3,7 @@ import random
 vetor=[]
 vetor2=[]
 for i in range(1,31):
-    vetor.append(random.randint(1,999))
+    vetor.append(random.randintunifo(1,999))
 for item in vetor:
     if item%2!=0:
         item = 0

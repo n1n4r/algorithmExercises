@@ -2,6 +2,7 @@
 import random
 n=int(input("Informe o codigo 1, 2 ou 3: "))
 vetor=[]
+vetor2=[]
 for i in range(1,11):
     vetor.append(round(random.uniform(-999.0,999.0),3))
 for item in vetor:
@@ -10,7 +11,7 @@ for item in vetor:
     elif n==2:
         i=len(vetor)-1
         while i>=0:
-            print(vetor[i],end=" ")
+            vetor2.append(vetor[i])
             i=i-1
     else:
         print(f"vetor ordem ???: {vetor}\n")
