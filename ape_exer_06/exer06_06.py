@@ -12,10 +12,10 @@ for key in students:
 print(f"{key} é o aluno com maior nota que é igual a {biggest_value}")
 
 #---
-dic:{}
+dic={}
 while True:
     nome = input("Informe o nome: ")
-    if nome == "000":
+    if nome == "ooo":
         break
     nota = float(input("Informe a nota: "))
     dic[nome]=nota
