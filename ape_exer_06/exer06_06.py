@@ -11,3 +11,20 @@ for key in students:
 
 print(f"{key} é o aluno com maior nota que é igual a {biggest_value}")
 
+#---
+dic:{}
+while True:
+    nome = input("Informe o nome: ")
+    if nome == "000":
+        break
+    nota = float(input("Informe a nota: "))
+    dic[nome]=nota
+maior = 0.0
+aluno = ""
+for nome in dic:
+    if dic[nome]>maior:
+        maior = dic[nome]
+        aluno = nome
+print (f"Maior nota - {aluno}: {maior} ")
+
+
